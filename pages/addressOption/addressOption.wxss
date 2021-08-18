@@ -1,0 +1,46 @@
+/* pages/addressOption/addressOption.wxss */
+.page{
+  padding: 20rpx;
+}
+
+.address-choose{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding:15rpx 20rpx;
+  margin-top: 20rpx;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #277ccc;
+}
+
+.position{
+  width: 40rpx;
+  margin-right: 10rpx;
+}
+
+.address-key{
+  margin: 20rpx 0;
+}
+
+.address-box{
+  padding:0 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.address-detail{
+  padding: 25rpx 0;
+  border-bottom: 2rpx solid #eeeeee;
+}
+
+.address-detail:last-child{
+  border: none;
+}
+
+.option{
+  position: fixed;
+  top:200rpx;
+  right: 25rpx;
+  color: #c3c3c3;
+}

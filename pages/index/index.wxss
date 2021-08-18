@@ -1,0 +1,105 @@
+/**index.wxss**/
+
+.bg-img{
+  width: 750rpx;
+}
+
+.content{
+  position: absolute;
+  top: 400rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 30rpx;
+  background-color: #f6f6f6;
+  width: 750rpx;
+}
+
+.per-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.per-box image{
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 55rpx;
+}
+
+.per-detail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90rpx;
+}
+
+.per-detail text:first-child{
+  font-size:38rpx ;
+}
+
+.ice-show{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #425E91;
+  font-style: italic;
+}
+
+.integral{
+  margin: 0 0 0 50rpx !important;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  width: 250rpx !important;
+  border-radius: 50rpx;
+  background-color: #425E91;
+}
+
+.point,.panel{
+  margin-top: 20rpx;
+}
+
+.point image{
+  width: 100%;
+}
+
+.panel{
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel image{
+  width: 48%;
+}
+
+.panel view{
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.panel view image{
+  width: 99%;
+}
+
+
+/* 悬浮客服按钮 */
+.custom-service{
+  position: fixed;
+  bottom:100rpx;
+  right: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+  background-color: white;
+  box-shadow:5rpx 5rpx 10rpx rgba(0, 0, 0, 0.3);
+}
+.custom-service image{
+    width:60%;
+}
+

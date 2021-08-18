@@ -1,0 +1,8 @@
+/**app.wxss**/
+/* 引入页面初始样式 */
+@import "initial.wxss";
+
+/* 字体加粗 */
+.font-bold{
+  font-weight: 700;
+}

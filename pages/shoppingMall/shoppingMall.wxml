@@ -1,0 +1,21 @@
+<!--pages/shoppingMall/shoppingMall.wxml-->
+<view class="search">
+  <view class="search-box">
+    <image src="/img/search.png" mode="widthFix"></image>
+    <input type="text" placeholder="输入您需要的商品" />
+  </view>
+  <button class="search-btn">搜索</button>
+</view>
+
+    <!-- 轮播图 -->
+    <swiper class="swiper" indicator-dots="true" indicator-color="RGBA(164,160,156,.3)" indicator-active-color="#fff" autoplay="true" interval="5000" duration="1000" circular="true">
+        <swiper-item class="elementCenterH">  
+          <image src="http://img.sccnn.com/simg/341/21239.jpg"  />  
+        </swiper-item>  
+        <swiper-item class="elementCenterH">  
+          <image src="http://img.sccnn.com/simg/341/21238.jpg" />  
+        </swiper-item>  
+        <swiper-item class="elementCenterH">  
+          <image src="http://img.sccnn.com/simg/338/69307.jpg" />  
+        </swiper-item>  
+    </swiper>  

@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="page">
+  <!-- <image class="bg-img" src="https://i.postimg.cc/G26myg6s/background.jpg" mode="widthFix" ></image> -->
+  <image class="bg-img" src="../../img/upload/background.jpg" mode="widthFix" ></image>
+  <view class="content">
+    <view class="per-box">
+        <image src="../../img/请登录.png"></image>
+        <view class="per-detail">
+            <text class="font-bold">你好，Sasha</text>
+            <text class="font-bold ice-show">ice Show</text>
+        </view>
+        <button class="integral">当前积分 ：1000</button>
+    </view>
+    <!-- 冰兽操作指引 -->
+    <view class="point">
+        <image src="../../img/upload/guide.png" mode="widthFix"></image>
+    </view>
+    <!-- 操作面板 -->
+    <view class="panel">
+        <image src="../../img/upload/nearby.png" mode="widthFix"></image>
+        <view>
+          <image src="../../img/upload/activity.png" mode="widthFix"></image>
+          <image src="../../img/upload/bingshou.png" mode="widthFix"></image>
+        </view>
+    </view>
+  </view>
+
+  <view class="custom-service">
+      <image src="../../img/custom.png" mode="widthFix"></image>
+  </view>
+</view>
+

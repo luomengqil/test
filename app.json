@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/shoppingMall/shoppingMall",
+    "pages/exchange/exchange",
+    "pages/index/index",
+    "pages/machineIncrease/machineIncrease",
+    "pages/addressOption/addressOption",
+    "pages/nearby/nearby",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "冰兽",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#c3c3c3",
+    "selectedColor": "#425E91",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "img/‌index2.png",
+        "iconPath": "img/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "img/nearby2.png",
+        "iconPath": "img/nearby.png",
+        "pagePath": "pages/nearby/nearby",
+        "text": "附近冰兽"
+      },
+      {
+        "selectedIconPath": "img/shoppingmall2.png",
+        "iconPath": "img/shoppingmall.png",
+        "pagePath": "pages/shoppingMall/shoppingMall",
+        "text": "商城"
+      },
+      {
+        "selectedIconPath": "img/mine2.png",
+        "iconPath": "img/mine.png",
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

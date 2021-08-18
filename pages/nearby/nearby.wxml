@@ -1,0 +1,30 @@
+<!--pages/nearby/nearby.wxml-->
+<view class="page">
+  <view class="address-choose">
+    <text bindtap="addressChoose">上海</text>
+    <image class="select" src="../../img/select.png" mode="widthFix"></image>|<image class="search-img" src="../../img/search.png" mode="widthFix"></image>
+    <input type="text" placeholder="输入地址寻找周边门店"/>
+    <button class="search">搜索</button>
+  </view>
+
+  <view class="nearby-box">
+      <view class="box-top">
+        <view>
+          <view class="bingshou">冰兽</view>
+          <text>中湘汇静安店（NO.1122244）</text>
+        </view>
+        <text>151m</text>
+      </view>
+      <view class="box-bottom">
+        <view>
+          <image class="position" mode="heightFix" src="../../img/position.png"></image>
+          <text class="font-bold">静安区共二环路201号嘉兴不夜城</text>
+        </view>
+        <button class="go">去这里</button>
+      </view>
+  </view>
+</view>
+
+<view class="add" bindtap="machineIncrease">
+  <image mode="widthFix" src="../../img/add.png"></image>
+</view>

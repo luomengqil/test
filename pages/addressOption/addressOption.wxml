@@ -1,0 +1,22 @@
+<!--pages/addressOption/addressOption.wxml-->
+<view class="page">
+  <text>当前定位城市</text>
+  <view class="address-choose">
+    <image class="position" src="../../img/nearby2.png" mode="widthFix"></image>
+    <text class="checked">上海</text>
+  </view>
+
+  <view class="address">
+    <view class="address-key">A</view>
+    <view class="address-box" >
+        <view class="address-detail" wx:for="{{9}}">安庆</view>
+    </view>
+  </view>
+</view>
+
+<view class="option">
+  <view wx:for="{{20}}">
+        <view>A</view>
+  </view>
+</view>
+

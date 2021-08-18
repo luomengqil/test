@@ -1,0 +1,41 @@
+/* pages/shoppingMall/shoppingMall.wxss */
+
+.search{
+  display: flex;
+  align-items: center;
+  margin: 20rpx 30rpx;
+}.search image{
+  margin-left: 40rpx;
+  width: 40rpx;
+}
+
+.search-box{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-right: 20rpx;
+  height: 60rpx;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.search-btn{
+  border-radius: 25px;
+  padding: 0 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #425e91;
+  width: auto !important;
+}
+
+.swiper{
+  padding-top: 20rpx;
+  height:320rpx;
+  width: 100%;
+}
+
+swiper-item image{
+  width:90%;
+  height:250rpx;
+  border-radius: 15rpx;
+}

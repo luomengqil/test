@@ -1,0 +1,24 @@
+<!--pages/machineIncrease/machineIncrease.wxml-->
+
+<form action="" bindsubmit="">
+  <view class="input_box">
+      <text>冰兽编号</text> 
+      <input name="ticket_id" type="text" placeholder="请输入冰兽编号"/>
+  </view>
+  <view class="input_box">
+      <text>名称</text> 
+      <input name="name" type="text" placeholder="请输入冰兽名称"/>
+  </view>
+  <view class="input_box">
+      <text>所在地区</text> 
+      <input name="address" type="text" placeholder="省、市、区、街道"/>
+      <image class="position" src="../../img/position2.png" mode="widthFix"></image>
+  </view>
+  <view class="textarea_box">
+      <text>详细地址</text> 
+      <textarea name="address_detail" placeholder="请输入详细地址" placeholder-class="input-placeholder"></textarea>
+  </view>
+  <view  class="confirm">
+      <button class="click" form-type="submit">确认录入</button>
+  </view>
+</form>
